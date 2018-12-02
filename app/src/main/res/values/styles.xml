@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Tab Header Style-->
+    <style name="tab_header" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="tabBackground">@drawable/selector_bottom_tab_bar</item>
+        <item name="tabIndicatorColor">#adadad</item>
+        <item name="tabIndicatorHeight">5dp</item>
+        <item name="textAllCaps">true</item>
+
+    </style>
+</resources>
